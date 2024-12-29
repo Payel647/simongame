@@ -1,44 +1,54 @@
-body {
+body{
     text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: rgb(26, 23, 23);
 }
-
-.btn {
+.btn{
     height: 200px;
     width: 200px;
     border-radius: 20%;
     border: 10px solid black;
-    margin: 2.5rem;
+    margin: 2rem;
 }
-
-.btn-container {
+h1{
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2,h4{
+    color: white;
+}
+.btn-container{
     display: flex;
     justify-content: center;
 }
-
-.red {
-    background-color: rgb(198, 79, 79);
+.red{
+    background-color: red;
 }
-
-.yellow {
-    background-color: yellowgreen;
+.yellow{
+    background-color: yellow;
 }
-
-.grey {
-    background-color: grey;
+.green{
+    background-color: rgb(86, 241, 86);
 }
-
-.purple {
-    background-color: rgb(167, 78, 167);
+.purple{
+    background-color: rgb(255, 134, 255);
 }
-
-.flashBtn {
+.flash{
     background-color: white;
 }
-
-.userFlash {
-    background-color: aquamarine;
+.userflash{
+    background-color: black;
 }
-
-h3 {
-    font-size: 30px;
+.docflash{
+    background-color: red;
+}
+.headings{
+    display: flex;
+}
+.heading-1{
+    margin-left: 300px;
+}
+.heading-2{
+    margin-left: 100px;
 }
