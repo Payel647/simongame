@@ -21,6 +21,7 @@ h2,h4{
 .btn-container{
     display: flex;
     justify-content: center;
+    background-color:white;
     border-radius: 50%;
 }
 .red{
